@@ -6,3 +6,44 @@
 .log-item {
   margin: 10rpx;
 }
+
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+
+.bnt{
+  width:90%;
+  margin-top: 50rpx;
+  border-color:#fff; 
+}
+
+.body{
+  margin-top: 50rpx;
+}
+.widgets__info{
+    display: flex;
+    padding: 26px;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid #fbeff6;
+}
+.widgets__info-img{
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+.widgets__info-name{
+  color:#d770ad;
+  margin-left: 15rpx;
+  font-size: 30rpx;
+}
+.widgets__info-do{
+  font-size: 14px;
+  color: pink;
+  margin-left:310rpx;
+}

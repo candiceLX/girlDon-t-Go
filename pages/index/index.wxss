@@ -1,4 +1,8 @@
 /**index.wxss**/
+.container {
+  background-image:url("http://lx.wo2.me/images/IMG_0917.JPG"); 
+  background-size:100% 100%;
+  }
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -13,10 +17,10 @@
 }
 
 .userinfo-nickname {
-  color: #aaa;
+  color: #fff;
 }
 
 .usermotto {
-  margin-top: 200px;
-  color: skyblue;
+  margin-top: 300px;
+  color: #fff;
 }

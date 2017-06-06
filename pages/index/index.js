@@ -3,7 +3,7 @@
 var app = getApp()
 Page({
   data: {
-    motto: '小姐姐请留宿 噢不 留步……',
+    motto: '小姐姐请留宿 不 留步……',
     userInfo: {}
   },
   //事件处理函数
