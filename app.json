@@ -1,12 +1,15 @@
 {
   "pages":[
+    
+    "pages/login/login",
     "pages/logs/logs",
-    "pages/index/index"   
+    "pages/index/index" 
+      
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#fef5fa",
+    "navigationBarTitleText": "你的酒池肉林",
+    "navigationBarTextStyle":"#000"
   }
 }

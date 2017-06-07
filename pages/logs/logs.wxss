@@ -1,3 +1,16 @@
+.login{
+  font-size: 12px;
+  width: 90%;
+  height: 20px;
+  color:skyblue; 
+  margin:0 auto;
+  display:flex;
+  flex-direction:row-reverse;
+}
+.login text{
+  float: left;
+}
+
 .log-list {
   display: flex;
   flex-direction: column;

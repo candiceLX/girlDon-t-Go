@@ -1,0 +1,10 @@
+ {
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "red",
+    "navigationBarTitleText": "你的酒池肉林",
+    "navigationBarTextStyle": "#000"
+  }
+
+  }

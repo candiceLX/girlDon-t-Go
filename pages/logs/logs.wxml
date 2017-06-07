@@ -1,5 +1,5 @@
 <!--logs.wxml-->
-<button>登陆</button>
+<view bindtap="bindViewTap" class="login"><text class="">刷脸</text></view>
  <swiper class="swiper" indicator-dots="true" indicator-active-color="pink" indicator-color="#fff" autoplay="true" interval="5000" duration="1000">  
       <block wx:for="{{movies}}" wx:for-index="index">    
         <swiper-item>    

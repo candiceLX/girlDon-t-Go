@@ -15,6 +15,12 @@ Page({
       { url: 'http://lx.wo2.me/images/banner4.jpg' }
     ]
   },
+  //事件处理函数
+  bindViewTap: function () {
+    wx.navigateTo({
+      url: '../login/login'
+    })
+  },
 
   onLoad: function () {   
     wx.getLocation({
