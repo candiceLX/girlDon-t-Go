@@ -8,20 +8,20 @@
       </block>    
     </swiper> 
 
-    <button class="bnt" style="color:#fff;background:#ec87c0; font-weight:400; letter-spacing:10rpx;">翻牌子</button>   
+    <button class="bnt"  bindtap="listsViewTap" style="color:#fff;background:#ec87c0; font-weight:400; letter-spacing:10rpx;">翻牌子</button>   
 
 <view class="body">
-    <view class="widgets__info">
+    <view class="widgets__info"  bindtap="likeViewTap">
         <image class="widgets__info-img" src="../../images/icon1.png" background-size="cover" ></image>
         <text class="widgets__info-name">我的宠妃</text>
         <text class="widgets__info-do">gogo >></text>
     </view>
-    <view class="widgets__info">
+    <view class="widgets__info"  bindtap="moneyViewTap">
         <image class="widgets__info-img" src="../../images/icon2.png"></image>
         <text class="widgets__info-name">我的卡包</text>
         <text class="widgets__info-do">gogo >></text>
     </view>
-    <view class="widgets__info">
+    <view class="widgets__info"  bindtap="loveViewTap">
         <image class="widgets__info-img" src="../../images/icon3.png"></image>
         <text class="widgets__info-name">我的后宫</text>
         <text class="widgets__info-do">gogo >></text>

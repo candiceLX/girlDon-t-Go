@@ -1,15 +1,19 @@
 {
-  "pages":[
-    
+  "pages": [
+   "pages/index/index",
     "pages/login/login",
+    
+    "pages/lists/lists",
+    "pages/money/money",
     "pages/logs/logs",
-    "pages/index/index" 
-      
+    "pages/love/love",
+    "pages/like/like"
+    
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fef5fa",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "你的酒池肉林",
-    "navigationBarTextStyle":"#000"
+    "navigationBarTextStyle": "#ccc"
   }
 }

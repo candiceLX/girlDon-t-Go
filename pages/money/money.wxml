@@ -1,0 +1,14 @@
+<!--money.wxml-->
+  <view>
+    <view class="banner">
+      <image src="http://lx.wo2.me/images/money05.jpg" style="width:100%;"/>
+    </view>
+    <view class="container">
+      <block wx:for="{{moncar}}" wx:for-index="index">  
+        <view>   
+          <image src="{{item.url}}"/> 
+          <text>{{item.tex}}</text> 
+        </view>   
+      </block>  
+    </view>
+  </view>

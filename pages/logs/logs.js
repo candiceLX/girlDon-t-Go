@@ -21,6 +21,26 @@ Page({
       url: '../login/login'
     })
   },
+  listsViewTap: function () {
+    wx.navigateTo({
+      url: '../lists/lists'
+    })
+  },
+  likeViewTap: function () {
+    wx.navigateTo({
+      url: '../like/like'
+    })
+  },
+  moneyViewTap: function () {
+    wx.navigateTo({
+      url: '../money/money'
+    })
+  },
+  loveViewTap: function () {
+    wx.navigateTo({
+      url: '../love/love'
+    })
+  },
 
   onLoad: function () {   
     wx.getLocation({

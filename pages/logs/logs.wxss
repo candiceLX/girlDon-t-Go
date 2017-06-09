@@ -2,6 +2,7 @@
   font-size: 12px;
   width: 90%;
   height: 20px;
+  line-height: 20px;
   color:skyblue; 
   margin:0 auto;
   display:flex;
