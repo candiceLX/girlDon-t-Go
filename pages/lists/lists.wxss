@@ -17,15 +17,26 @@ page{
   left: 0;
   width: 25%;
   height: 100%;
-  background: pink;
+  background:pink;
   text-align: center;
   color: #fff;
 }
+.nav_left view{
+  display: flex;
+   flex-direction: column;
+}
 .nav_left .nav_left_items{
-
  align-items:center;
   flex: auto;  
   font-size: 12px;
+}
+.nav_left image{
+  width: 40px;
+  height:40px; 
+  margin-top:10px;
+}
+.nav_left text{
+  margin-top: 10px;
 }
 .nav_left .nav_left_items.active{
   background: #fff;

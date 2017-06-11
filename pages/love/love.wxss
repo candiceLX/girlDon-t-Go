@@ -1,1 +1,4 @@
 /* love.wxss */
+page{
+  background-color:#fff4fe;
+}

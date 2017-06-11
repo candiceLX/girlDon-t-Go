@@ -1,19 +1,21 @@
 {
   "pages": [
+    "pages/love/love",
+    "pages/lists/lists",
    "pages/index/index",
     "pages/login/login",
     
-    "pages/lists/lists",
+    
     "pages/money/money",
     "pages/logs/logs",
-    "pages/love/love",
+    
     "pages/like/like"
     
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "你的酒池肉林",
+    "navigationBarTitleText": "我的爱妃们~",
     "navigationBarTextStyle": "#ccc"
   }
 }

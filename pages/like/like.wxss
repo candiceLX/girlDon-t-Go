@@ -1,1 +1,4 @@
 /* like.wxss */
+page{
+  background-color:#FFF5EE;
+}
