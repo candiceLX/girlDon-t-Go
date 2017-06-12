@@ -1,2 +1,9 @@
 <!--like.wxml-->
-<text>like.wxml</text>
+<view class="container">
+  <block wx:for="{{loveList}}" wx:for-index="index">  
+    <view>   
+      <image src="{{item.url}}"/> 
+      <text>{{item.tex}}</text> 
+    </view>   
+  </block>  
+</view>

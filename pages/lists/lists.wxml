@@ -8,23 +8,23 @@
     </block>
   </view>
   <view class="nav_right">
-    <view wx:if="{{navRightItems[curIndex].tree.nodes[1].tree.nodes}}">
-      <block wx:for="{{navRightItems[curIndex].tree.nodes[1].tree.nodes}}">
+    <view wx:if="{{navRightItems[curIndex]}}">
+      <block wx:for="{{navRightItems[curIndex]}}">
         <view class="nav_right_items">
-          <navigator url="../list/index?brand={{item.tree.id}}&typeid={{navRightItems[curIndex].id}}">
+          <navigator url="">
             <view>
-              <block wx:if="{{item.tree.logo}}">
-                <image src="{{item.tree.logo}}"></image>
+              <block wx:if="{{item.url}}">
+                <image src="{{item.url}}"></image>
               </block>
               <block wx:else>
-                <image src="http://temp.im/50x30"></image>
+                <image src="http://lx.wo2.me/images/img05.jpg"></image>
               </block>
             </view>
-            <view wx:if="{{item.tree.desc}}">
-              <text>{{item.tree.desc}}</text>
+            <view wx:if="{{item.tex}}">
+              <text>{{item.tex}}</text>
             </view>
             <view wx:else>
-              <text>{{item.tree.desc2}}</text>
+              <text>没有文字用这个 </text>
             </view>
           </navigator>
         </view>
